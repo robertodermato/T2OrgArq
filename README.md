@@ -28,7 +28,7 @@ uma palavra ocorre em uma frase. Para isso, defina dois strings, onde um
 contém diversas palavras e outro uma única palavra.
 
 
-### Integrantes:
+## Integrantes:
 <b> Adriana Anacleto Serpa </b> </br>
 <b> Luiz Eduardo Mello Reis </b> </br>
 <b> Roberto Luís Rezende </b> </br>
