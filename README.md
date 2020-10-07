@@ -1,11 +1,6 @@
 # Trabalho 2 de Organização e Arquitetura de Computadores
 ### Engenharia de Software - PUCRS Turma 127.
 
-### Integrantes:
-<b> Adriana Anacleto Serpa </b> </br>
-<b> Luiz Eduardo Mello Reis </b> </br>
-<b> Roberto Luís Rezende </b> </br>
-</br></br>
 O segundo trabalho consiste na implementação dos problemas abaixo utilizando a linguagem de montagem do computador Viking.
 
 - Os códigos fonte dos programas em linguagem de montagem (arquivos
@@ -31,3 +26,10 @@ armazenadas em uma string e apresenta o total no terminal.
 Escreva um programa que determina o número de vezes que
 uma palavra ocorre em uma frase. Para isso, defina dois strings, onde um
 contém diversas palavras e outro uma única palavra.
+
+
+### Integrantes:
+<b> Adriana Anacleto Serpa </b> </br>
+<b> Luiz Eduardo Mello Reis </b> </br>
+<b> Roberto Luís Rezende </b> </br>
+</br></br>
