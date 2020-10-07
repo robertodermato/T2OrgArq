@@ -7,7 +7,7 @@ O segundo trabalho consiste na implementação dos problemas abaixo utilizando a
 .asm);
 - Um relatório apresentando os nomes completos dos integrantes (com
 seus emails) e uma descrição de cada problema, explicando sua solução:
-- Descriçã do algoritmo implementado e uma verificação de sua
+- Descrição do algoritmo implementado e uma verificação de sua
 funcionalidade;
 - Análise do programa, utilizando os recursos do simulador vikingsim,
 como a tabela de símbolos, código de máquina, dump da meória
