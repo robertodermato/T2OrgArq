@@ -1,4 +1,4 @@
-# Trabalho 2 de Organização e Arquitetura de Computadores
+# T2 de Organização e Arquitetura de Computadores
 ### Engenharia de Software - PUCRS Turma 127.
 
 O segundo trabalho consiste na implementação dos problemas abaixo utilizando a linguagem de montagem do computador Viking.
