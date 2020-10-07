@@ -1,4 +1,5 @@
-# Trabalho 2 de Organização e Arquitetura de Computadores - Engenharia de Software - PUCRS Turma 127.
+# Trabalho 2 de Organização e Arquitetura de Computadores
+### Engenharia de Software - PUCRS Turma 127.
 
 ### Integrantes:
 <b> Adriana Anacleto Serpa </b> </br>
