@@ -1,3 +1,5 @@
+// não tá funcionando
+
 public class Problema3v3 {
 
     public static void main(String args[]) {
