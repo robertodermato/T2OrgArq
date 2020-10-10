@@ -11,11 +11,9 @@ public class Problema3v8 {
 
         for (int i=0; i<frase.length(); i++) {
             teste_de_igualdade = frase.charAt(index_frase) - palavra.charAt(index_palavra);
-
             //letra é igual
             if (teste_de_igualdade == 0) {
                 index_palavra++;
-
                 //chegou no fim da palavra, ou seja achou uma palavra
                 if (index_palavra == palavra.length()) {
                     contador = contador + 1;
