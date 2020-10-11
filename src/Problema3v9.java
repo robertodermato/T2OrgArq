@@ -8,7 +8,7 @@ public class Problema3v9 {
         int inicioDePalavra=1;
 
         String palavra = "banana";
-        String frase = "bananas. boa sbanana.";
+        String frase = "bananas. boa bananas";
 
         for (index_frase=0; index_frase<frase.length(); index_frase++) {
 
@@ -33,6 +33,8 @@ public class Problema3v9 {
                 index_palavra++;
                 //chegou no fim da palavra, ou seja achou uma palavra
                 if (index_palavra == palavra.length()) {
+
+                    if (index_frase+1==frase.length() || !ehLetra(frase.charAt(index_frase+1)))
                     contador = contador + 1;
                     //System.out.println("contou 1 no " + index_frase);
                     index_palavra=0;
