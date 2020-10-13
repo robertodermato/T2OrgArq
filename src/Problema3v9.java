@@ -8,7 +8,7 @@ public class Problema3v9 {
         int inicioDePalavra=1;
 
         String palavra = "banana";
-        String frase = "bananas. boa bananas";
+        String frase = "banana. boa bananas";
 
         for (index_frase=0; index_frase<frase.length(); index_frase++) {
 
@@ -19,30 +19,23 @@ public class Problema3v9 {
                     inicioDePalavra=1;
                     index_palavra=0;}
                 index_frase++;
-                //System.out.println("após espaço" + index_frase);
-                //System.out.println(index_frase);
             }
 
-            if (index_frase==frase.length()) break;
+            if (index_frase==frase.length()) break; ///foi
 
-            //System.out.println("teste " + frase.charAt(index_frase) + " e " + palavra.charAt(index_palavra));
             teste_de_igualdade = frase.charAt(index_frase) - palavra.charAt(index_palavra);
             //letra é igual
             if (inicioDePalavra==1 && teste_de_igualdade == 0) {
-                //System.out.println("comparou");
                 index_palavra++;
                 //chegou no fim da palavra, ou seja achou uma palavra
                 if (index_palavra == palavra.length()) {
 
                     if (index_frase+1==frase.length() || !ehLetra(frase.charAt(index_frase+1)))
                     contador = contador + 1;
-                    //System.out.println("contou 1 no " + index_frase);
                     index_palavra=0;
                 }
             }
             else {
-                //System.out.print("não");
-                //System.out.println(index_frase);
                 inicioDePalavra=0;}
         }
         System.out.println(contador);
