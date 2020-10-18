@@ -8,7 +8,7 @@ public class Problema3v9 {
         int inicioDePalavra=1;
 
         String palavra = "banana";
-        String frase = "banana. boa bananas";
+        String frase = "banana boa bananas";
 
         for (index_frase=0; index_frase<frase.length(); index_frase++) {
 
