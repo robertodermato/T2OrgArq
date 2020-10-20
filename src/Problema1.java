@@ -26,42 +26,29 @@ public class Problema1 {
 
     public static void calculaMenor(){
         for (int i=0; i<vetor.length; i++){
-            if (vetor[i] < menor) menor = vetor[i];
-        }
-    }
+            if (vetor[i] < menor) menor = vetor[i];}}
 
     public static void calculaMaior(){
         for (int i=0; i<vetor.length; i++){
-            if (vetor[i] > maior) maior = vetor[i];
-        }
-    }
+            if (vetor[i] > maior) maior = vetor[i];}}
 
-    public static void calculaSoma(){
-        soma = menor + maior;
-    }
+    public static void calculaSoma(){soma = menor + maior;}
 
     public static void calculaProduto(){
         if (maior==0 || menor==0) return;
         if (maior < 0) multiplicaNegativos();
-        else multiplicaPositivos();
-    }
+        else multiplicaPositivos();}
 
     public static void multiplicaNegativos(){
         int novomaior=0;
         for (int i=maior; i<0;i++) {
-            novomaior = novomaior + 1;
-        }
-
+            novomaior = novomaior + 1;}
         for (int i=menor; i<0; i++){
-            produto = produto + novomaior;
-        }
-    }
+            produto = produto + novomaior;}}
 
     public static void multiplicaPositivos(){
         for (int i=maior; i>0; i--){
-            produto = produto + menor;
-        }
-    }
+            produto = produto + menor;}}
 }
 
 
